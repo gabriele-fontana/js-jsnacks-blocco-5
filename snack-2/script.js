@@ -6,3 +6,6 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+//utilizzo map per stampare ogni nome
+//utilizzo join per scriverli in un'unica riga
+console.log(people.map(name => `'${name.name}'`).join(', '));

@@ -5,7 +5,7 @@ const names = ['Edoardo', 'Simone', 'Francesco'];
 
 
 //utilizzo map per stampare tutti i nomi
-//utiizzo join per scriverli in un unica riga
+//utiizzo join per scriverli in un'unica riga
 console.log(names.map(name => `'${name}'`).join(', '));
 
 
